@@ -9,6 +9,7 @@ module.exports = function (defaults) {
         extension: 'scss',
         enabled: true,
         parser: require('postcss-scss'),
+        map: false,
         plugins: [
           {
             module: require('@csstools/postcss-sass'),
