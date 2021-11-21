@@ -20,6 +20,7 @@ module.exports = function (defaults) {
         enabled: true,
         plugins: [
           { module: require('autoprefixer') },
+          { module: require('cssnano') },
         ],
       },
     }
